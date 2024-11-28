@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SalaryControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SalaryControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.humanit.salary_api.controller.html">com.humanit.salary_api.controller</a> &gt; SalaryControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.063s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Test 1: Create Salary</td>
+<td class="success">CreateSalary_ReturnedCreated()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test 6: Delete Salary</td>
+<td class="success">DeleteSalary_ReturnNoContent()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test 4: Get All Salaries By Collaborator Id</td>
+<td class="success">GetAllSalariesByCollaboratorId_ReturnSalariesDTO()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test 2: Get All Salaries</td>
+<td class="success">GetAllSalaries_ReturnSalariesDTO()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test 3: Get Salary By Id</td>
+<td class="success">GetSalaryById_ReturnSalaryDTO()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test 5: Update Salary</td>
+<td class="success">UpdateSalary_ReturnUpdatedSalaryDTO()</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2024-11-28 15:27:41.874 [Correlation ID: ] - Could not detect default configuration classes for test class [com.humanit.salary_api.controller.SalaryControllerTest]: SalaryControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-28 15:27:41.884 [Correlation ID: ] - Found @SpringBootConfiguration com.humanit.salary_api.SalaryApiApplication for test class com.humanit.salary_api.controller.SalaryControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-11-28 15:27:41.918 [Correlation ID: ] - Starting SalaryControllerTest using Java 21.0.4 with PID 9080 (started by yuric in D:\Projetos\HumanIT\Projeto Final\salary_api)
+2024-11-28 15:27:41.919 [Correlation ID: ] - No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-28 15:27:42.171 [Correlation ID: ] - Initializing Spring TestDispatcherServlet ''
+2024-11-28 15:27:42.172 [Correlation ID: ] - Initializing Servlet ''
+2024-11-28 15:27:42.173 [Correlation ID: ] - Completed initialization in 1 ms
+2024-11-28 15:27:42.190 [Correlation ID: ] - Started SalaryControllerTest in 0.292 seconds (process running for 14.287)
+2024-11-28 15:27:42.247 [Correlation ID: ] - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 28 de nov. de 2024 15:27:45</p>
+</div>
+</div>
+</body>
+</html>

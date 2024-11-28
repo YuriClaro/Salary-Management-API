@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.humanit.salary_api.scheduler.SalarySchedulerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-28T18:27:43" hostname="YURI-CPU" time="0.332">
+  <properties/>
+  <testcase name="testUpdateSalariesByEffectiveDate()" classname="com.humanit.salary_api.scheduler.SalarySchedulerTest" time="0.332"/>
+  <system-out><![CDATA[2024-11-28 15:27:43.978 [Correlation ID: ] - Updating salary for collaborator ID: null
+2024-11-28 15:27:43.979 [Correlation ID: ] - Current salary set as ARCHIVED
+2024-11-28 15:27:43.979 [Correlation ID: ] - New salary set as CURRENT
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

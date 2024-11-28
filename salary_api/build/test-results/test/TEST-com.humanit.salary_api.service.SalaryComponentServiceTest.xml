@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.humanit.salary_api.service.SalaryComponentServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-28T18:27:44" hostname="YURI-CPU" time="0.194">
+  <properties/>
+  <testcase name="Test 5: Get All Salary Components By Salary ID" classname="com.humanit.salary_api.service.SalaryComponentServiceTest" time="0.172"/>
+  <testcase name="Test 1: Create Salary Component" classname="com.humanit.salary_api.service.SalaryComponentServiceTest" time="0.004"/>
+  <testcase name="Test 6: Delete Salary Component" classname="com.humanit.salary_api.service.SalaryComponentServiceTest" time="0.004"/>
+  <testcase name="Test 3: Get Salary Component by ID" classname="com.humanit.salary_api.service.SalaryComponentServiceTest" time="0.003"/>
+  <testcase name="Test 4: Update Salary Component" classname="com.humanit.salary_api.service.SalaryComponentServiceTest" time="0.004"/>
+  <testcase name="Test 2: Get all Salary Components" classname="com.humanit.salary_api.service.SalaryComponentServiceTest" time="0.003"/>
+  <system-out><![CDATA[2024-11-28 15:27:44.955 [Correlation ID: ] - Fetching all salary components with pagination - Page: 0, Size: 10
+2024-11-28 15:27:44.956 [Correlation ID: ] - Total salary components found: 1, Total pages: 1
+2024-11-28 15:27:45.024 [Correlation ID: ] - Creating salary component for salary with ID: 6657858c-89a4-4e40-bcbb-99405f894e49
+2024-11-28 15:27:45.024 [Correlation ID: ] - SalarySpecification component created for SalarySpecification with ID: 6657858c-89a4-4e40-bcbb-99405f894e49, and salary component: 7e5b73aa-a9d0-49f7-8f31-2877c7398ba1
+2024-11-28 15:27:45.028 [Correlation ID: ] - Attempting to delete salary component with ID: 6c6323d1-fd14-433f-b99b-5251fd8e0e4c
+2024-11-28 15:27:45.029 [Correlation ID: ] - SalarySpecification component with ID 6c6323d1-fd14-433f-b99b-5251fd8e0e4c deleted successfully
+2024-11-28 15:27:45.032 [Correlation ID: ] - Fetching salary component with ID: 21d9cd52-2917-4627-86aa-6627c4c1fe91
+2024-11-28 15:27:45.032 [Correlation ID: ] - SalarySpecification component ID: 21d9cd52-2917-4627-86aa-6627c4c1fe91 retrieved successfully.
+2024-11-28 15:27:45.036 [Correlation ID: ] - Attempting to update salary component with ID: 82fa29f1-4dd6-41f8-98a9-c3cd8b0e27de
+2024-11-28 15:27:45.036 [Correlation ID: ] - SalarySpecification component with ID: 82fa29f1-4dd6-41f8-98a9-c3cd8b0e27de has been updated.
+2024-11-28 15:27:45.041 [Correlation ID: ] - Fetching all salary components with pagination - Page: 0, Size: 10
+2024-11-28 15:27:45.041 [Correlation ID: ] - Total salary components found: 1, Total pages: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

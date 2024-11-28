@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.humanit.salary_api.service.ExcelServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-11-28T18:27:44" hostname="YURI-CPU" time="0.821">
+  <properties/>
+  <testcase name="Generate an Excel file with salary details for a specific collaborator" classname="com.humanit.salary_api.service.ExcelServiceTest" time="0.696"/>
+  <testcase name="Generate an Excel file with salaries by status 'CURRENT'" classname="com.humanit.salary_api.service.ExcelServiceTest" time="0.095"/>
+  <testcase name="Generate an Excel file with all salaries between specified dates" classname="com.humanit.salary_api.service.ExcelServiceTest" time="0.028"/>
+  <system-out><![CDATA[2024-11-28 15:27:44.024 [Correlation ID: ] - Exporting salaries for collaborator ID: c8a09f75-b6f2-4ca8-845e-d6a81db8e94f
+2024-11-28 15:27:44.024 [Correlation ID: ] - Creating Excel workbook with header.
+2024-11-28 15:27:44.555 [Correlation ID: ] - Excel header created successfully.
+2024-11-28 15:27:44.555 [Correlation ID: ] - Filling sheet with salary data. Total rows to add: 1
+2024-11-28 15:27:44.559 [Correlation ID: ] - Sheet filled with salary data successfully.
+2024-11-28 15:27:44.559 [Correlation ID: ] - Excel file generated successfully for collaborator ID: c8a09f75-b6f2-4ca8-845e-d6a81db8e94f
+2024-11-28 15:27:44.559 [Correlation ID: ] - Writing workbook to byte array.
+2024-11-28 15:27:44.721 [Correlation ID: ] - Exporting all salaries by status.
+2024-11-28 15:27:44.721 [Correlation ID: ] - Creating Excel workbook with header.
+2024-11-28 15:27:44.727 [Correlation ID: ] - Excel header created successfully.
+2024-11-28 15:27:44.728 [Correlation ID: ] - Filling sheet with salary data. Total rows to add: 1
+2024-11-28 15:27:44.731 [Correlation ID: ] - Sheet filled with salary data successfully.
+2024-11-28 15:27:44.731 [Correlation ID: ] - Excel file generated successfully with 1 salaries
+2024-11-28 15:27:44.731 [Correlation ID: ] - Writing workbook to byte array.
+2024-11-28 15:27:44.817 [Correlation ID: ] - Exporting all salaries between dates to Excel
+2024-11-28 15:27:44.818 [Correlation ID: ] - Creating Excel workbook with header.
+2024-11-28 15:27:44.823 [Correlation ID: ] - Excel header created successfully.
+2024-11-28 15:27:44.823 [Correlation ID: ] - Filling sheet with salary data. Total rows to add: 1
+2024-11-28 15:27:44.826 [Correlation ID: ] - Sheet filled with salary data successfully.
+2024-11-28 15:27:44.826 [Correlation ID: ] - Excel file generated successfully with 1 salaries
+2024-11-28 15:27:44.826 [Correlation ID: ] - Writing workbook to byte array.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

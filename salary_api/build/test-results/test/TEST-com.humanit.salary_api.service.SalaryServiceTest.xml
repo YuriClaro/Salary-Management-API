@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.humanit.salary_api.service.SalaryServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-28T18:27:45" hostname="YURI-CPU" time="0.073">
+  <properties/>
+  <testcase name="Test 4: Update Salary" classname="com.humanit.salary_api.service.SalaryServiceTest" time="0.055"/>
+  <testcase name="Test 6: Delete Salary" classname="com.humanit.salary_api.service.SalaryServiceTest" time="0.002"/>
+  <testcase name="Test 2: Get All Salaries" classname="com.humanit.salary_api.service.SalaryServiceTest" time="0.003"/>
+  <testcase name="Test 5: Get All Salaries By Collaborator ID" classname="com.humanit.salary_api.service.SalaryServiceTest" time="0.004"/>
+  <testcase name="Test 1: Create Salary" classname="com.humanit.salary_api.service.SalaryServiceTest" time="0.003"/>
+  <testcase name="Test 3: Get Salary by ID" classname="com.humanit.salary_api.service.SalaryServiceTest" time="0.002"/>
+  <system-out><![CDATA[2024-11-28 15:27:45.098 [Correlation ID: ] - Attempting to update salary ID: c71d2c2d-dc1c-4de6-a2b2-810d048b5b80
+2024-11-28 15:27:45.098 [Correlation ID: ] - Salary with ID: c71d2c2d-dc1c-4de6-a2b2-810d048b5b80 has been updated.
+2024-11-28 15:27:45.101 [Correlation ID: ] - Attempting to delete user ID: 73fc5f40-9f25-4042-b1d0-3ca171cb2e16
+2024-11-28 15:27:45.101 [Correlation ID: ] - Salary ID: 73fc5f40-9f25-4042-b1d0-3ca171cb2e16 deleted successfully
+2024-11-28 15:27:45.104 [Correlation ID: ] - Fetching all salaries with pagination - Page: 0, Size: 10
+2024-11-28 15:27:45.104 [Correlation ID: ] - Total salary found: 1, Total pages: 1
+2024-11-28 15:27:45.108 [Correlation ID: ] - Fetching all salaries for collaborator ID e866678e-39ed-4235-a9b4-9051cc2a589c with pagination - Page: 0, Size: 10
+2024-11-28 15:27:45.109 [Correlation ID: ] - Total salary components found: 1, Total pages: 1
+2024-11-28 15:27:45.112 [Correlation ID: ] - Creating salary for collaborator ID: 5f43f86b-160a-4d93-b284-ad024919bac7
+2024-11-28 15:27:45.113 [Correlation ID: ] - Salary was created with ID e79ec2bc-fce9-4173-8388-154376a6b13c, for collaborator: 5f43f86b-160a-4d93-b284-ad024919bac7
+2024-11-28 15:27:45.116 [Correlation ID: ] - Fetching salary with ID: 6fcde617-e742-4cfd-a280-1c586062d3e5
+2024-11-28 15:27:45.116 [Correlation ID: ] - Salary with ID: 6fcde617-e742-4cfd-a280-1c586062d3e5 returned successfully.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
