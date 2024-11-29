@@ -17,7 +17,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Schema(description = "Data Transfer Object representing the recipient's email address.")
 public class EmailWithStatusDTO {
-    @NotBlank
     @Size(min = 5, max = 150)
     @NotEmpty(message = "Email is required")
     @Schema(description = "The email address of the recipient.", example = "user@example.com", format = "email")

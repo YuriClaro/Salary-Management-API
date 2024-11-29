@@ -17,7 +17,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Schema(description = "Data Transfer Object (DTO) representing a date range to query current salaries.")
 public class DatesRequestDTO {
-    @NotBlank
     @Size(min = 5, max = 150)
     @NotEmpty(message = "Email is required")
     @Schema(description = "The email address of the recipient.", example = "user@example.com", format = "email")

@@ -24,12 +24,10 @@ public class UserCredentials extends Auditable {
     private UUID id;
 
     @NotEmpty
-    @Size(max = 20)
     @Column(nullable = false, unique = true)
     private String username;
 
     @NotEmpty
-    @Size(max = 50)
     @Column(nullable = false, unique = true)
     private String email;
 
@@ -39,7 +37,6 @@ public class UserCredentials extends Auditable {
     private UserCredentialsRole role;
 
     @NotEmpty
-    @Size(max = 120)
     @Column(nullable = false)
     private String password;
 
