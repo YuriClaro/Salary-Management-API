@@ -33,6 +33,9 @@ Development of a salary management system with an architecture composed of 4 mic
 ## Architecture
 The Salary Management System follows a microservices architecture, with independent services communicating via Kafka for asynchronous communication or synchronous FeignClient calls. Each service is designed for scalability, reliability, and modularity.
 
+![Imagem 1](/images/UML.jpg)
+
+
 ## API Documentation
 The ``Portal API`` interacts with the``Authentication API``, ``Salary Management API`` and ``Email API`` to handle authentication, salary management, and email functionalities.
 
